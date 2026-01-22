@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property html_title="shows" loadStyle="Bar" hideAdobeMenu="false" photoDynamicShow="true" anvsoftMenu="false" enableURL="false" startAutoPlay="true" frameRate="30"/>
+            <music_property path="" stream="false" loop="true"/>
+            <description_property enable="true" backgroundColor="0xffffff" backgroundAlpha="10" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}" align="top"/>
+            <background_property backgroundColor="" mode="stretch"/>
+        </global>
+        <photo>
+            <basic_property PhotoMaxWidth="600" PhotoMaxHeight="450" photoborder="8" photoBackColor="0xc0c0c0" EnablephotoTitle="true" photoTitleColor="0xc04b00" photolineColor="0x2c2c2c" photoButtonColor="0x000000" pagedirection="right" rotationangle="5" pageSpeed="2"/>
+        </photo>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Cuppa cha $ coffee" width="600" height="449"><![CDATA[<a href="cuppa.html">cuppa cha $ coffeel</a>]]></slide>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="del_si" width="600" height="449"><![CDATA[<a href="del_si.html">del si</a>]]></slide>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="serenade" width="600" height="449"><![CDATA[<a href="serenade.html">songs serenade</a>]]></slide>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Co Drive" width="600" height="450"><![CDATA[<a href="">co_drive.html</a>]]></slide>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Salaam" width="600" height="377"><![CDATA[<a href="salaam.html">Salaam Namaste</a>]]></slide>
+        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Apna pun Jab" width="600" height="329"><![CDATA[<a href="apna.htm">Apna Pun Jab</a>]]></slide>
+        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" transition="12" panzoom="1" URLTarget="0" phototime="3" transitiontime="1" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Top 20 shakedown" width="600" height="399"><![CDATA[<a href="top20.htm">Top 20 Shakedown</a>]]></slide>
+    </album>
+</flash_parameters>

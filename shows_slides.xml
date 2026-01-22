@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property html_title="Title" loadStyle="Pie" hideAdobeMenu="false" photoDynamicShow="true" anvsoftMenu="false" enableURL="false" startAutoPlay="true" frameRate="30"/>
+            <music_property path="" stream="true" loop="true"/>
+            <description_property enable="true" backgroundColor="0xffffff" backgroundAlpha="10" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}" align="bottom"/>
+            <background_property backgroundColor="0x000000" mode="tile"/>
+        </global>
+        <photo>
+            <basic_property PhotoMaxWidth="600" PhotoMaxHeight="450" photoborder="8" photoBackColor="0xffffff" EnablephotoTitle="true" photoTitleColor="0xffffff" photolineColor="0xa0a0a4" photoButtonColor="0xffffff" pagedirection="right" rotationangle="10" pageSpeed="3"/>
+        </photo>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="12" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="apna pu" width="600" height="329"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="12" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="codrive" width="536" height="450"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="12" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="cuppa" width="600" height="449"/>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="12" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="salam" width="600" height="377"/>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="12" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="TOP 20" width="600" height="399"/>
+    </album>
+</flash_parameters>

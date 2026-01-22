@@ -1,0 +1,37 @@
+User-agent: Googlebot
+allow: 
+
+User-agent: googlebot-image
+allow: 
+
+User-agent: googlebot-mobile
+allow: 
+
+User-agent: MSNBot
+allow: 
+
+User-agent: psbot
+allow: 
+
+User-agent: Slurp
+allow: 
+
+User-agent: yahoo-mmcrawler
+allow: 
+
+User-agent: yahoo-blogs/v3.9
+allow: 
+
+User-agent: teoma
+allow: 
+
+User-agent: Scrubby
+allow: 
+
+User-agent: ia_archiver
+allow: 
+
+User-agent: *
+allow: www.soundasiafm.com/
+
+Sitemap: sitemap.xml

@@ -1,0 +1,81 @@
+@charset "utf-8";#mother{margin:0 auto;height:auto;width:1000px;filter:alpha(opacity=50)}
+.fb-comments,.fb-like{background-color:#FFF}
+#main{height:auto;max-width:1000px;width:100%;border-radius:10px;padding:10px;box-shadow:0 0 40px #FFF;position:absolute;margin:0 auto;//background:url(backgrounds/contents2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;margin-bottom:100px}
+.fb-like{background:#fff}
+#listen{background:#EBEBEB;height:auto;border-radius:10px;position:absolute;margin:0 auto;left:300px;top:18px}
+#header{margin:0 auto;max-width:990px;width:100%}
+#menubar,#ads{background-color:#000;margin:0 auto;max-width:975px;width:100%;border-radius:0;box-shadow:0 0 10px #000;padding:3px}
+#ads{height:auto;border-radius:10px;box-shadow:0 0 40px #000;font-family:'Source Sans Pro', sans-serif; font-style:bold;width:96%;}
+.ad-header{position:relative;max-width:260px;background:url(backgrounds/pin.jpg) no-repeat bottom;width:90%;float:left;margin:5px 20px;padding:2px;padding-bottom:40px;}
+.ad-header font{padding:5px;}
+.pin{ position:absolute;bottom:+10px;right:+90px;max-width:50px;height:50px}
+.ad-content{padding:10px;color:#269CF0}
+#menubar ul{padding:0;list-style:none;text-align:center;display:block}
+#menubar ul li{margin:2px;padding:0;display:inline}
+#menubar ul li a{text-decoration:none;font-family:Corbel;font-size:large;font-weight:700;padding:5px;color:#FFF;color:#86B6F0}
+#menubar ul li a.current{text-decoration:none;font-family:"Comic Sans MS",cursive;font-size:large;font-weight:700;padding:5px;color:#FFF;border-radius:5px;background-color:#950095}
+#menubar ul li a:hover{text-decoration:none;font-family:"Comic Sans MS",cursive;font-size:large;font-weight:700;color:#fff;background-color:#950095;padding:5px;border-style:none;border-radius:5px}
+#marquee{background:#000;margin:0 auto;max-width:975px;width:100%;height:20px;border-radius:5px;box-shadow:inset 0 0 5px #FFF;padding:3px;font:Verdana,Geneva,sans-serif;font-weight:700;text-decoration:none;color:#FFF}
+#marquee a{color:#FFF}
+#contents{max-width:650px;width:100%;height:auto;padding:3px;border-left:#666;float:left;color:#FFF;padding-right:2px}
+.content{max-width:720px;width:100%;height:600px;padding:3px;border-left:#666;color:#FFF}
+#contents2{max-width:700px;width:100%;height:auto;padding:5px;border-left:#666;float:left;color:#FFF}
+#listenpage{padding:100px}
+#wrapper{max-width:270px;width:100%;height:auto;border-left:#666;float:right;padding:10px}
+#sidebar{max-width:250px;width:96%;height:auto;padding:10px;border-left:#666;float:right;border-radius:10px;box-shadow:0 0 40px #fff;padding-top:10px;background:#fff}
+#socials{max-width:200px;width:100%;height:auto;padding:3px;left:400px}
+#live,#waves{max-width:250px;width:100%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+#slogan{max-width:250px;width:100%;height:auto;padding:3px;left:400px;font:"Comic Sans MS",cursive;font-weight:400;text-decoration:blink;text-shadow:#C0F}
+#Buzz{max-width:250px;width:100%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+#chairman{max-width:680px;width:100%;height:auto;padding:3px;left:0;font-family:Corbel,Forte,"Freestyle Script","Gill Sans MT",Magneto;font-weight:200}
+#about{max-width:680px;width:100%;background-image:url(backgrounds/main.png) repeat+x #0c0d10;height:auto;padding:3px;left:0;font-family:Corbel,Forte,"Freestyle Script","Gill Sans MT",Magneto;font-weight:50;font-size:14px}
+#competitions,#events{max-width:680px;width:100%;background-image:url(backgrounds/main.png) repeat+x #0c0d10;height:auto;padding:3px;left:0;font-family:"Comic Sans MS",cursive;text-decoration:inherit;color:#FFF;font-size:14px}
+.black{background-color:black;max-width:680px;width:100%; padding:10px}
+.homepage{}
+.ad{height:50px; width:100%;
+}
+.msg{
+	color:white;
+	font-size:25px;
+}
+.ads{float:left; width:32%; margin-right:2px; color:#060; text-align: center; font-size:20px; background-color: white; padding:5px; border-radius:5px;}
+#advert{max-width:680px;width:100%;background-image:url(backgrounds/main.png) repeat+x #0c0d10;height:auto;padding:3px;left:0;font-family:Tahoma,Geneva,sans-serif;text-decoration:inherit;color:#FFF;font-size:14px;margin:0 auto;text-align:center;margin-top:100px;font-weight:700}
+#contact{max-width:680px;width:100%;height:auto;padding:3px;left:0;font-family:Corbel,Forte,"Freestyle Script","Gill Sans MT",Magneto;font-weight:800;font-size:16px;background:url(backgrounds/Music%20Please.jpeg)no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;margin-bottom:100px;color:#FFF;box-shadow:inset 0 0 20px #FFF}
+.air{position:relative;z-index:0;background:#FFF;border:#000}
+.air:hover{background-color:transparent;z-index:150}
+.air span{position:absolute;background:#000;padding:30px;left:-500px;border:2px solid #fff;font-family:Corbel;color:#FFF;visibility:hidden;text-decoration:none;width:500px}
+.air:hover span{visibility:visible;top:-200px;left:80px;background:#000;padding:5px;width:500px}
+td span img{padding:1px;background:#000}
+span img:hover{padding:5px;background:#000}
+#frame{padding:20px;margin:0 auto;background:url(backgrounds/iframe.jpg)}
+#footer{background:#FFF;margin:0 auto;max-width:960px;width:100%;height:auto;border-radius:10px;box-shadow:inset 0 0 10px #999;float:left;padding:10px;margin-top:20px;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-weight:800;font-size:12px;color:#85038F}
+h4{padding:0;display:inline;color:#F775F7;font-weight:700;text-shadow:#333}
+#thumbs{float:left;box-shadow:0 0 10px #999;padding:10px;background-color:#26200C;font-family:Papyrus,fantasy}
+#thumbs table tr{border-bottom-color:#C6C;border-style:outset}#shows{float:left;font-family:Tahoma,Geneva,sans-serif}
+#shows table td{border-radius:0;padding:5px;border-color:#333;font-size:14px;box-shadow:inset 0 0 10px #999;font-family:Tahoma,Geneva,sans-serif}
+#bollywood{max-width:680px;width:100%;height:auto;left:0;font-family:Tahoma,Geneva,sans-serif;text-decoration:inherit;color:#fff;font-size:14px;margin:0 auto;text-align:center}
+body{background:url('bs.jpg');background-color:#000;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;margin-bottom:100px}
+@media screen and (min-width: 10px) and (max-width: 500px) {
+    #header {display: none;}
+	.homepage {display: none;}
+	#wrapper{max-width:450px;width:97%;height:auto;border-left:#666;float:right;padding:10px}
+	#contents{max-width:450px;width:100%;height:auto;padding:3px;border-left:#666;float:left;color:#FFF;padding-right:2px}
+	#mother{margin:0 auto;height:auto;max-width:500px;width:100%;filter:alpha(opacity=50)}
+	#sidebar{max-width:430px;width:96%;height:auto;padding:10px;border-left:#666;float:right;border-radius:10px;box-shadow:0 0 40px #fff;padding-top:10px;background:#fff}
+	#socials{max-width:430px;width:100%;height:auto;padding:3px;left:400px}
+	#live,#waves{max-width:430px;width:100%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+	#slogan{max-width:430px;width:100%;height:auto;padding:3px;left:400px;font:"Comic Sans MS",cursive;font-weight:400;text-decoration:blink;text-shadow:#C0F}
+	#Buzz{max-width:430px;width:100%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+	#footer{width:90%}
+}
+@media screen and (min-width: 500px) and (max-width: 960px) {
+	#wrapper{max-width:960px;width:100%;height:auto;border-left:#666;float:right;padding:20px;}
+	#contents{max-width:940px;width:100%;height:auto;padding:3px;border-left:#666;float:left;color:#FFF;padding-right:2px}
+	#mother{margin:0 auto;height:auto;max-width:960px;width:100%;}
+	#sidebar{max-width:940px;width:96%;height:auto;padding:10px;border-left:#666;float:right;border-radius:10px;box-shadow:0 0 40px #fff;padding-top:10px;background:#fff}
+	#socials{max-width:940px;width:96%;height:auto;padding:3px;left:400px}
+	#live,#waves{max-width:940px;width:96%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+	#slogan{max-width:940px;width:96%;height:auto;padding:3px;left:400px;font:"Comic Sans MS",cursive;font-weight:400;text-decoration:blink;text-shadow:#C0F}
+	#Buzz{max-width:940px;width:96%;height:auto;padding:3px;left:400px;font:Verdana,Geneva,sans-serif;font-weight:700}
+	#footer{width:90%}
+}
