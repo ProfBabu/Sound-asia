@@ -122,57 +122,70 @@
 		
 		
 		<!-- HOME -->
-		<!-- HOME -->
-<section id="home" class="padbot0">
-        
-    <!-- TOP SLIDER -->
-    <div class="flexslider top_slider">
-        <ul class="slides">
-
-            <!-- KEEP ONLY THIS SLIDE -->
-            <li class="slide1">
-                <div class="flex_caption1">
-                    <p class="title1 captionDelay2 FromTop">Sound</p>
-                    <p class="title2 captionDelay4 FromTop">Asia</p><br>
-                    <p class="title4 captionDelay6 FromTop">FM Kenya</p> 
-                    <p class="title4 captionDelay7 FromBottom">
-                        Entertaining you Everytime, Everywhere.
-                    </p>
-                    <a class="slide_btn FromRight" href="listen-online.html">
-                        LISTEN LIVE
-                    </a>
-                </div>
-
-                <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
-                <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
-                <script type="text/javascript">
-                MRP.insert({
-                    'url':'https://stream-163.zeno.fm/b8axnv3sz6ctv',
-                    'codec':'mp3',
-                    'volume':100,
-                    'autoplay':false,
-                    'jsevents':true,
-                    'buffering':0,
-                    'title':'Sound Asia FM',
-                    'welcome':'Namaste',
-                    'wmode':'transparent',
-                    'skin':'myradio',
-                    'width':262,
-                    'height':165
-                });
-                </script>
-                <!-- ENDS: RADIO PLAYER CODE -->
-
-            </li>
-            <!-- // END SINGLE SLIDE -->
-
-        </ul>
-    </div>
-    <!-- //TOP SLIDER -->
-
-</section>
-<!-- //HOME -->
-
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Sound</p>
+							<p class="title2 captionDelay4 FromTop">Asia</p><br>
+							<p class="title4 captionDelay6 FromTop">  FM Kenya</p> 
+							<p class="title4 captionDelay7 FromBottom">Entertaining you Everytime, Everywhere.</p>
+						<a class="slide_btn FromRight" href="listen-online.html" >LISTEN LIVE</a>
+						</div>
+						<!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+<script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+<script type="text/javascript">
+MRP.insert({
+    'url':'https://stream-163.zeno.fm/b8axnv3sz6ctv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiOGF4bnYzc3o2Y3R2IiwiaG9zdCI6InN0cmVhbS0xNjMuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InZ6RmI5RExFU2xLYWd0OS1YV0tGZnciLCJpYXQiOjE3NjU3MDEzODAsImV4cCI6MTc2NTcwMTQ0MH0.b1W7vRySfpLFAxTPu-R7Bz7TZKcFn6oaxDWC3eOsxho',
+    'codec':'mp3',
+    'volume':100,
+    'autoplay':false,
+    'jsevents':true,
+    'buffering':0,
+    'title':'Sound Asia FM',
+    'welcome':'Namaste',
+    'wmode':'transparent',
+    'skin':'myradio',
+    'width':262,
+    'height':165
+});
+</script>
+<!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+					<li class="slide2">
+						<div class="flex_caption1">
+							
+							<p class="title4 captionDelay7 FromBottom">Entertaining you Everytime</p>
+						</div>
+						<a class="slide_btn FromRight" href="listen-online.html" >LISTEN LIVE</a>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							
+							<p class="title4 captionDelay7 FromBottom">Entertaining you Everywhere.</p>
+						</div>
+						<a class="slide_btn FromRight" href="listen-online.html" >LISTEN LIVE</a>
+					<li class="slide4">
+						<div class="flex_caption1">
+							
+							<p class="title4 captionDelay7 FromBottom">Entertaining you Everywhere.</p>
+						</div>
+						<a class="slide_btn FromRight" href="listen-online.html" >LISTEN LIVE</a>
+						
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/slide1_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
 <style>
 /* ABOUT SECTION */
 .about-section {
@@ -337,6 +350,13 @@
         </div><br>
 		<br><br>
 		<br>
+
+        <!-- BOTTOM SHAPE -->
+        <div class="section-shape">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C240,100 480,0 720,30 960,60 1200,100 1440,40 L1440,120 L0,120 Z"></path>
+            </svg>
+        </div>
     </div>
 
 </section>
@@ -381,13 +401,14 @@
 }
 
 .team-slider .item {
-    min-width: 350px;
+    min-width: 300px;
     flex-shrink: 0;
 }
+
 /* Responsive */
 @media (max-width: 992px) {
     .team-slider .item {
-        min-width: 48%;
+        min-width: 45%;
     }
 }
 
@@ -423,7 +444,7 @@
 /* TEAM IMAGE FIX – SAME SIZE */
 .crewman {
     width: 100%;
-    height: 350px;            /* adjust height if needed */
+    height: 300px;            /* adjust height if needed */
     overflow: hidden;
     border-radius: 6px;       /* optional: smooth corners */
 }
@@ -434,28 +455,10 @@
     object-position: center;  /* keeps faces centered */
     display: block;
 }
-.team-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 25px;
-}
 
-.team-nav button {
-    background: #fec400;
-    border: none;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    color: #000;
-    font-size: 18px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.team-nav button:hover {
-    background: #fff;
-}
 </style>	
+		
+		
 	<!-- TEAM -->
 <section id="team" class="team-section">
     <!-- CONTAINER -->
@@ -467,14 +470,6 @@
         <div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
 
             <!-- TEAM SLIDER -->
-            <div class="team-nav">
-                <button class="team-prev">
-                    <i class="fa fa-chevron-left"></i>
-                </button>
-                <button class="team-next">
-                    <i class="fa fa-chevron-right"></i>
-                </button>
-            </div>            
             <!-- <div class="owl-demo owl-carousel team_slider"> -->
 				<div class="team-slider">
 
@@ -500,11 +495,11 @@
 				<div class="item">
                     <div class="crewman_item">
                         <div class="crewman">
-                            <img src="images/mm2.jpeg" alt="Shubhrika – Presenter Cuppa CGA N Coffee">
+                            <img src="images/mm.jpeg" alt="Shubhrika – Presenter Cuppa CGA N Coffee">
                         </div>
                         <div class="crewman_descr center">
                             <div class="crewman_descr_cont">
-                                <p class="crewman-name">Prashant</p>
+                                <p class="crewman-name">Shubhrika</p>
                                 <span class="crewman-role">Presenter – Cuppa CGA N Coffee</span>
                             </div>
                         </div>
@@ -611,6 +606,9 @@
         </div><!-- ROW -->
     </div><!-- CONTAINER -->
 </section>
+
+		
+		
 		<!-- NEWS -->
 		<section id="news">
 		
@@ -752,9 +750,9 @@
                 <h4>Contact Us</h4>
 
                 <p>
-                    <strong>Phone Numbers:</strong><br>
-                    Studio Line +254 733 880 880 <br>
-                    Marketing +254 737 880 880
+                    <strong>Studio Lines:</strong><br>
+                    Call +254 737 880 880<br>
+                    WhatsApp +254 733 880 880
                 </p>
 
                 <p>
@@ -807,33 +805,28 @@
 </script>
 
 <script>
-$('.flexslider').flexslider({
-    slideshow: false,
-    directionNav: false
-});
-document.addEventListener("DOMContentLoaded", function () {
-	const slider = document.querySelector(".team-slider");
-	const nextBtn = document.querySelector(".team-next");
-	const prevBtn = document.querySelector(".team-prev");
-
-	const item = slider.querySelector(".item");
-	const gap = parseInt(getComputedStyle(slider).gap) || 0; // get gap between items
-	const scrollStep = item.offsetWidth + gap; // scroll exactly one item
-
-	nextBtn.addEventListener("click", () => {
-		slider.scrollBy({
-			left: scrollStep,
-			behavior: "smooth"
-		});
+	document.addEventListener("DOMContentLoaded", function () {
+		const slider = document.querySelector(".team-slider");
+		let scrollAmount = 0;
+		const slideSpeed = 3000; // 3 seconds
+	
+		function autoSlide() {
+			const maxScroll = slider.scrollWidth - slider.clientWidth;
+	
+			if (scrollAmount >= maxScroll) {
+				scrollAmount = 0;
+			} else {
+				scrollAmount += slider.clientWidth / 3;
+			}
+	
+			slider.scrollTo({
+				left: scrollAmount,
+				behavior: "smooth"
+			});
+		}
+	
+		setInterval(autoSlide, slideSpeed);
 	});
-
-	prevBtn.addEventListener("click", () => {
-		slider.scrollBy({
-			left: -scrollStep,
-			behavior: "smooth"
-		});
-	});
-});
 	</script>	
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
